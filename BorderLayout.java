@@ -1,4 +1,4 @@
-//librerias que puso el profe en clase
+//librerias que puso el profe en clasess
 import javax.swing.JFrame;
 import javax.swing.JButton;
 public class BorderLayout//creo que aquí falta algo, en unos ejemplos habla de un extends
