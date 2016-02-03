@@ -1,4 +1,5 @@
 //librerias que puso el profe en clasess
+import java.awt.BorderLayout;
 import javax.swing.JFrame;
 import javax.swing.JButton;
 public class BorderLayout extends JFrame{ //Teniamos que extenderle el JFrame, por eso se importaba la libreria JFrame.
@@ -19,7 +20,13 @@ public class BorderLayout extends JFrame{ //Teniamos que extenderle el JFrame, p
     JButton btnCen = new JButton("Centro");
     JButton btnWest = new JButton("Oeste");
     JButton btnEast = new JButton("Este");
-
+	 //Asignación de controles a las areas correspondientes
+         this.add(button1, BorderLayout.NORTH) ;
+         this.add(button2, BorderLayout.SOUTH) ;
+         this.add(button3, BorderLayout.WEST) ;
+         this.add(button4, BorderLayout.EAST) ;
+         this.add(button5, BorderLayout.CENTER) ;
+         this.setVisible(true);
   }//ventana
 
     public static void main(String ar[]){
